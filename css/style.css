@@ -344,7 +344,7 @@ nav {
     overflow: hidden;
 }
 
-.card-layer>.watch {
+.card-layer > .watch {
     margin-left: -4px;
     font-size: 10px;
     font-style: normal;
@@ -1679,7 +1679,135 @@ left: -290px;
     /* 166.667% */
 }
 
-/* End We r gamer */
+.about-container .abt-btn {
+    left: 170px;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+ }
+  .about-moral{
+
+    position: relative;
+    text-align: center;
+ }
+
+ .about-text-area h2{
+    /* text-align: left; */
+    align-items: center;
+    position: relative;
+    margin-left: -181px;
+}
+
+
+
+/* End We are gamer */
+
+/* For Tablet */
+.card-container .card-headings {
+
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    /* left: 490px; */
+
+}
+
+/* For Tablet */
+
+.card-container .card-headings h1 {
+    /* display: flex; */
+
+    justify-content: center;
+    position: relative;
+    left: 1200px;
+   font-size: 48px;
+     color: #0B0223;
+    /* text-align: right; */
+    font-family: Work Sans;
+   
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+/* tablet video play koreje card section */
+.card-headings {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+    width: max-content;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+}
+.card-container .card-headings > p {
+    position: relative;
+    left: 1200px;
+    font-size: 28px;
+}
+.card-img-container{
+
+    position: relative;
+    margin-left: -230px;
+    left: -30px;
+}
+.card-parent .card-para{
+
+    font-size: 30px;
+
+}
+.card-layer > a > .play-btn{
+    height: 472px;
+width: 72px;
+}
+.card-layer .watch{
+
+    font-size: 30px;
+}
+ .card-box , .card-para {
+    /* font-size: 90px; */
+    left: 400px;
+    position: relative;
+}
+.card-box img{
+
+    position: relative;
+width: auto;
+    height: 500px;
+}
+
+.card-container .card-headings h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-headings p{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    font-size: 70px;
+}
+
+.career-container .career-desc {
+    position: relative;
+    margin-left: -426px;
+}
+.card-img-container{
+
+    position: relative;
+    left: 800px;
+    /* height: 400px; */
+}
 
 
  
@@ -1687,11 +1815,11 @@ left: -290px;
 .ad-container {
 
     position: relative;
-    top: 2650px;
-    left: 150px;
-    margin-bottom: 2900px;
+    top: 690px;
+    left: 750px;
+    margin-bottom: 950px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -1715,19 +1843,13 @@ left: 290px;
     left: 80px;
 }
 
-.play {
+.ad-texts .play {
     width: max-content;
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
 }
-.about-text-area h2{
-    /* text-align: left; */
-    align-items: center;
-    position: relative;
-    margin-left: -181px;
-}
-
 /* For Tablet */
 
 .ad-texts p {
@@ -1735,19 +1857,8 @@ left: 290px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 36px;
 }
- .about-container .abt-btn {
-    left: 170px;
-    position: relative; 
-    justify-content: center;
-    align-items: center;
- }
-  .about-moral{
-
-    position: relative;
-    text-align: center;
- }
 
 /* For Tablet */
 .career-container {
@@ -1757,96 +1868,27 @@ left: 290px;
     height: max-content;
 
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 900px;
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
-}
-
-/* For Tablet */
-.card-container .card-headings {
-
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    /* left: 490px; */
-
-}
-
-/* For Tablet */
-
-.card-container .card-headings h1 {
-    /* display: flex; */
-
-    justify-content: center;
-    position: relative;
-    left: 500px;
-    color: #0B0223;
-    /* text-align: right; */
-    font-family: Work Sans;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-
-}
-/* tablet video play koreje card section */
-.card-headings {
-    display: flex;
-    flex-direction: column;
-    position: relative;
- 
-    width: max-content;
-    text-align: center;
-    justify-self: center;
-    align-items: center;
-}
-.card-box , .card-para {
-    left: 400px;
-    position: relative;
-}
-
-.card-container .card-headings h1 span {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.card-headings p {
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    left: 500px;
-    font-size: 20px;
-}
-
-.career-container .career-desc {
-    position: relative;
-    margin-left: -426px;
 }
 
 /* Tablet device
  */
 .genre-container {
     position: relative;
+    /* margin-bottom: 900px; */
     top: 20px;
-
+max-width:  768px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     position: relative;
-    left: 300px;
-    margin-top: -1100px;
-    margin-bottom: 0;
+    left: 900px;
+    margin-top:-2000px; 
 }
 .second-btn .visible{
     display: none;
@@ -1855,14 +1897,134 @@ left: 290px;
 
 /* Tablet */
 .second-btn {
-    margin-top: 18px;
+  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 300px;
+    left: 900px;
+      margin-top: 18px;
+      bottom: 200px;
+    margin-bottom: 1900px;
 }
+
+
+
+.career-container {
+
+
+    display: flex;
+    /* grid-template-columns: repeat(2, 2fr); */
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+    /* padding: 40px; */
+
+    /* margin: 0 auto; */
+    max-width: max-content;
+    /* width: 768px; */
+    /* margin-top: 900px; */
+    padding: 0;
+    margin-bottom: 0px;
+    /* padding: 10px; */
+    /* padding-left: 30px;  */
+}
+
+.career-container .pos-city {
+    margin-left: -15px;
+}
+
+.career-container .career-desc {
+    margin-left: 144px;
+
+    /* width: 100%; */
+}
+
+.career-container .career-img {
+    position: relative;
+    /* top: -190px; */
+    margin-right: 100px;
+
+
+}
+
+.career-container .career-img img {
+    position: relative;
+    /* top: -190px; */
+    margin-right: 400px;
+    height: 800px;
+    left: 45px;
+    /* width: 200px; */
+
+}
+
+.career-container .career-desc h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+
+}
+
+.career-container .career-desc p {
+    width: 680px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+}
+
+
+.career-container .career-desc li {
+    list-style: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 200% */
+}
+
+.career-container li span {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 200% */
+    /* display: flex; */
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.career-container .career-btn {
+
+    border: none;
+    padding: 13px;
+    border-radius: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    background: #FFF;
+    color: #FF42A5;
+}
+
+/*  end of Careers sections */
+
 
 .career-img {
 
@@ -1873,6 +2035,8 @@ left: 290px;
 
 
 .footer {
+    width: 1468px;
+    margin-top: -120px;
 
     display: flex;
     flex-direction: column;
