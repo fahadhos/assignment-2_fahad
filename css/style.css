@@ -15,11 +15,11 @@
 nav {
 
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    /* height: auto; */
+      /* height: auto; */ 
 }
 
 .nav-container {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
     max-width: 1280px;
 
@@ -921,11 +921,20 @@ Play Instantly, No Downloads No Installs.
 /* Media query for Mobile device */
 
 /* mobile device */
+* {
+    box-sizing: border-box;}
+
 @media screen and (max-width:477px) {
-
+ 
+    .nav{
+         width: 976px;
+         box-shadow:  none;
+         background-color: #FFF;
+    }
     .nav-container {
+      background-color: #FFF;
         flex-direction: column;
-
+box-shadow: none;
         margin: 0 auto;
         position: relative;
         left: 25%;
@@ -964,7 +973,7 @@ Play Instantly, No Downloads No Installs.
         margin-top: 89px;
     }
 
-    .nav-container .nav-items-container>a {
+    .nav-container .nav-items-container > a {
         color: #3C354F;
         text-align: center;
         font-family: Work Sans;
