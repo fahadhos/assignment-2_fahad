@@ -1375,7 +1375,7 @@ End of Mobile device
 
 /* For teblet design */
 /* min - 426  max- 768 */
-@media screen and (min-width:478px) and (max-width: 768px) {
+@media screen and (min-width:478px) and (max-width: 769px) {
 
 /* Tablet css */
 
@@ -1923,31 +1923,30 @@ max-width:  768px;
 .career-container {
 
 
-    display: flex;
-    /* grid-template-columns: repeat(2, 2fr); */
-    /* align-items: center;
-    justify-content: center; */
-    /* text-align: center; */
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: space-around; 
+    grid-template-columns: repeat(2, 2fr);
+     align-items:left;
+  
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
-    /* padding: 40px; */
-
-    /* margin: 0 auto; */
-    max-width: max-content;
-    /* width: 768px; */
-    /* margin-top: 900px; */
-    padding: 0;
-    margin-bottom: 0px;
+   
+    padding-top: 0;
+  margin-left: 0 auto;
+padding-bottom: 100px;
+    /* margin-bottom: 0px; */
     /* padding: 10px; */
-    /* padding-left: 30px;  */
+    padding-left: 1200px; 
 }
 
 .career-container .pos-city {
-    margin-left: -15px;
+    /* margin-left: 95px; */
+    text-align: end;
 }
 
 .career-container .career-desc {
-    margin-left: 144px;
+  text-align: start;
 
     /* width: 100%; */
 }
@@ -1955,7 +1954,7 @@ max-width:  768px;
 .career-container .career-img {
     position: relative;
     /* top: -190px; */
-    margin-right: 100px;
+    /* margin-right: 900px; */
 
 
 }
@@ -2067,9 +2066,10 @@ max-width:  768px;
 .footer-links {
     position: relative;
     text-align: justify;
-
+gap: 2px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* -ms-grid-column-align: center; */
 
 }
 
