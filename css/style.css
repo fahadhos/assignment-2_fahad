@@ -688,13 +688,13 @@ Play Instantly, No Downloads No Installs.
     /* margin-bottom: 90px; */
     margin: 60px auto;
     position: relative;
-    left: 2%;
-    display: grid;
+   display: flex;
+    /* display: grid; */
     /* grid-template-columns: repeat(7, 1fr); */
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    justify-content: center;
-    align-items: center;
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-column-gap: -90px; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .second-btn {
@@ -931,6 +931,7 @@ Play Instantly, No Downloads No Installs.
         left: 25%;
     }
 
+/* mobile device */
     .logo-container {
         justify-content: center;
         align-items: center;
@@ -939,6 +940,7 @@ Play Instantly, No Downloads No Installs.
         left: 67%;
         margin-bottom: -270px;
     }
+    /* mobile device */
 
     .nav-items-container {
 
@@ -952,6 +954,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .nav-container .logo-container p {
         color: #0B0223;
         font-family: Work Sans;
@@ -974,6 +977,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .nav-btn {
         border-radius: 8px;
 
@@ -987,6 +991,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .nav-btn .follow {
         /* margin-top:  9px;   */
     }
@@ -1006,16 +1011,25 @@ Play Instantly, No Downloads No Installs.
         text-align: center;
     }
 
+/* mobile device */
     .banner-container .banner-heading {
 
         position: relative;
         left: 200px;
     }
-
+    .banner-text{
+        position: relative;
+        left: 300px; 
+    }
+.banner-text p , button {
+    position: relative;
+    left: 200px;
+}
+/* mobile device */
     .banner-img-container {
 
         position: relative;
-        left: 50%;
+        left: 500px;
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -1023,8 +1037,75 @@ Play Instantly, No Downloads No Installs.
 
 
 
+/* Mobile */
 
 
+    /* for mobile */
+    .about-container {
+        /*  */
+        margin-top: 200px;
+        margin-bottom: 300px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        top: 600px;
+        left: 550px;
+        /* width: fit-content; */
+    }
+
+    .about-container .about-img > img {
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        margin-left: -100px;
+        align-items: center;
+    }
+
+    .about-container .about-text-area h2 {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+        width: max-content;
+        text-align: center;
+
+
+    }
+
+    .about-container .abt-btn {
+
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        left: 110px;
+    }
+    /* mobile device */
+
+    .about-container .about-purpose,
+    .about-moral {
+
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .about-container .about-desc {
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+    }
+
+/* mobile device */
+    
     .card-container {
         margin-top: 200px;
         margin-bottom: 1000px;
@@ -1049,11 +1130,12 @@ Play Instantly, No Downloads No Installs.
 
     }
 
-    .card-box>img {
-        width: 300px;
-        height: 300px;
+    .card-box > img {
+        width: 400px;
+        height: 350px;
     }
 
+/* mobile device */
     .card-img-container .card-para {
         color: #534C64;
         text-align: center;
@@ -1070,69 +1152,6 @@ Play Instantly, No Downloads No Installs.
         width: max-content;
         justify-content: center;
         align-items: center;
-    }
-
-    /* for mobile */
-    .about-container {
-        /*  */
-        margin-top: 900px;
-        margin-bottom: 300px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        text-align: justify;
-        top: 600px;
-        left: 500px;
-        /* width: fit-content; */
-    }
-
-    .about-container .about-img>img {
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        margin-left: -240px;
-        align-items: center;
-    }
-
-    .about-container .about-text-area h2 {
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 50px;
-        width: max-content;
-        text-align: center;
-
-
-    }
-
-    .about-container .abt-btn {
-
-        display: inline-flex;
-        padding: 21px 40px;
-        align-items: flex-start;
-        gap: 10px;
-        position: relative;
-        left: 110px;
-    }
-
-    .about-container .about-purpose,
-    .about-moral {
-
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .about-container .about-desc {
-        color: #534C64;
-        text-align: center;
-        font-family: Work Sans;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        /* 166.667% */
     }
 
     /* media query mobile */
@@ -1157,6 +1176,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .ad-img {
 
         position: relative;
@@ -1182,6 +1202,7 @@ Play Instantly, No Downloads No Installs.
     align-items: center;
     justify-content: center;
 } */
+/* mobile device */
     .career-container {
 
 
@@ -1204,6 +1225,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .card-container .card-headings h1 {
         /* display: flex; */
 
@@ -1221,6 +1243,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .card-headings {
         display: flex;
         flex-direction: column;
@@ -1241,6 +1264,7 @@ Play Instantly, No Downloads No Installs.
         font-weight: 700;
         line-height: normal;
     }
+    /* mobile device */
 
     .card-headings p {
         text-align: center;
@@ -1255,7 +1279,8 @@ Play Instantly, No Downloads No Installs.
         margin-left: -426px;
     }
 
-    /* mobile */
+    /* mobile device
+     */
     .genre-container {
         position: relative;
         top: 20px;
@@ -1266,19 +1291,23 @@ Play Instantly, No Downloads No Installs.
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 500px;
+        left: 240px;
         margin-top: 0;
         margin-bottom: 0;
     }
+    .second-btn .visible{
+        display: none;
+        /* visibility: none; */
+    }
 
     .second-btn {
-        margin-top: 0;
+        margin-top: 18px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 500px;
+        left: 240px;
     }
 
     .career-img {
@@ -1288,6 +1317,7 @@ Play Instantly, No Downloads No Installs.
     }
 
 
+/* mobile device */
 
     .footer {
 
@@ -1308,6 +1338,7 @@ Play Instantly, No Downloads No Installs.
 
     }
 
+/* mobile device */
     .footer-links {
         position: relative;
         text-align: justify;
@@ -1325,7 +1356,556 @@ Play Instantly, No Downloads No Installs.
         align-items: center;
     }
 }
+/* mobile device */
+/* =======================
+
+End of Mobile device
+
+============*/
+
 
 /* For teblet design */
 /* min - 426  max- 768 */
-@media screen and (max-width: 768px) {}
+@media screen and (min-width:478px) and (max-width: 768px) {
+
+/* Tablet css */
+
+*{
+    max-width: border-box;
+
+}
+
+/* Tablet css */
+
+nav {
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /* height: auto; */
+}
+/* Tablet css */
+.nav-container {
+
+    max-width: 768px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+ 
+    align-items: center;
+    gap: 1200px;
+}
+/* Tablet css */
+/* Tablet css */
+.nav-container .logo-container {
+
+    /*  */
+    /* border: 1px solid green; */
+    padding-left: 150px;
+    display: flex;
+    width: 50%;
+
+}
+/* Tablet css */
+
+.nav-container .logo-container img {
+    /*  */
+    width: 86.026px;
+    height: 40.015px;
+    margin-right: 23px;
+    margin-top: 50px;
+    object-fit: cover;
+
+}
+
+/* title logo text  */
+.nav-container .logo-container p {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.nav-container .nav-btn {
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 362px;
+    border: none;
+    /* margin-top: -22px; */
+
+
+}
+.nav-container a , button{
+   
+    width: max-content;
+
+}
+
+.nav-btn > button{
+
+    width: 500px;
+}
+.nav-container .nav-btn .follow {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-shrink: 0;
+    height: 50px;
+  
+    gap: 5px;
+    padding-left: 22px;
+}
+
+.nav-items-container {
+
+    /*  */
+    /* border: 1px solid blue; */
+display: flex;
+justify-content: space-between;
+width: max-content;
+    margin-left: 300px;
+    /* width: 50%; */
+}
+
+.nav-items-container a {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 30px;
+   
+}
+
+/* end of nav */
+
+
+/* ===Banner area ============ */
+
+.banner-container {
+
+    /* width: 901px; */
+
+
+    max-width: 768px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row ; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 230px;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-text{
+    width: max-content;
+    position: relative;
+    justify-content: right;
+    text-align: left;
+    left: 500px;
+}
+.banner-heading {
+    font-size: 80px;
+    width: max-content;
+
+
+}
+
+
+.banner-heading .goat {
+    font-size: 90px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-heading .banner-btn-grp{
+    display: flex;
+    flex-direction: column;
+}
+/* button */
+.banner-btn-1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: none;
+    padding: 21px 40px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.banner-btn-1:hover {
+
+    box-shadow: 0 0 1rem rgb(247, 31, 67);
+}
+
+.banner-btn-2 {
+    color: #FFF;
+    padding: 21px 40px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.banner-btn-2:hover {
+
+    box-shadow: 0 0 2rem #4EC5F7;
+}
+
+.banner-img-container {
+ position: relative;
+left: 10px;
+right: 300px;
+ 
+/* align-items: end;  */
+     /* height: 900px; */
+   
+}
+.banner-img-container img{
+    margin-top: 250px;
+position: relative;
+left: 900px;
+align-items: right;
+/* justify-content: end; */
+    height: 900px;
+   
+}
+
+/*-==== End of Banner area================================ */
+
+
+
+/*--====== Start  We r gamer section ================ */
+.about-container {
+    /*  */
+   margin-top: -110px;
+    margin-bottom: 900px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    top: 600px;
+    margin-left: 400px;
+    left: 1900px;
+    /* width: fit-content; */
+}
+.about-text-area {
+
+position: relative;
+left: -810px;
+}
+.about-container .about-img > img {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  
+    left: -900px;
+    margin-left: -240px;
+    align-items: center;
+}
+
+.about-container .about-text-area h2 {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -22px;
+    width: max-content;
+    text-align: center;
+
+
+}
+/* Tablet device */
+.about-container .abt-btn {
+
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    
+    margin-left: -302px;
+}
+.about-purpose{
+    font-size: 20px;
+    position: relative;
+left: -290px;
+    margin-left: -20px;
+}
+.about-container  .about-moral { 
+    text-align: center;
+    position: relative;
+    left: -200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-container .about-desc {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-left: -408px;
+    /* 166.667% */
+}
+
+/* End We r gamer */
+
+
+ 
+/* For Tablet */
+.ad-container {
+
+    position: relative;
+    top: 2650px;
+    left: 150px;
+    margin-bottom: 2900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-container .ad-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+
+position: relative;
+left: 290px;
+
+}
+
+/* For Tablet */
+.ad-img {
+
+    position: relative;
+    left: 80px;
+}
+
+.play {
+    width: max-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.about-text-area h2{
+    /* text-align: left; */
+    align-items: center;
+    position: relative;
+    margin-left: -181px;
+}
+
+/* For Tablet */
+
+.ad-texts p {
+    width: max-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+ .about-container .abt-btn {
+    left: 170px;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+ }
+  .about-moral{
+
+    position: relative;
+    text-align: center;
+ }
+
+/* For Tablet */
+.career-container {
+
+
+    width: max-content;
+    height: max-content;
+
+    flex-direction: column;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+/* For Tablet */
+.card-container .card-headings {
+
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    /* left: 490px; */
+
+}
+
+/* For Tablet */
+
+.card-container .card-headings h1 {
+    /* display: flex; */
+
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    color: #0B0223;
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+/* tablet video play koreje card section */
+.card-headings {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+    width: max-content;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+}
+.card-box , .card-para {
+    left: 400px;
+    position: relative;
+}
+
+.card-container .card-headings h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-headings p {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+    font-size: 20px;
+}
+
+.career-container .career-desc {
+    position: relative;
+    margin-left: -426px;
+}
+
+/* Tablet device
+ */
+.genre-container {
+    position: relative;
+    top: 20px;
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+    margin-top: -1100px;
+    margin-bottom: 0;
+}
+.second-btn .visible{
+    display: none;
+    /* visibility: none; */
+}
+
+/* Tablet */
+.second-btn {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+}
+
+.career-img {
+
+    position: relative;
+    left: 200px;
+}
+
+
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+
+    height: max-content;
+}
+
+.footer .footer-icons,
+.footer-text {
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.footer-links {
+    position: relative;
+    text-align: justify;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.copyright {
+    position: relative;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+}
