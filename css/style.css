@@ -1320,6 +1320,10 @@ footer section ================================*/
         /* left: -10px; */
         margin-left: -135px;
     }
+   #card-paragraph{
+        font-size: 23px;
+      
+    }
 
     .card-box>img {
         width: 400px;
