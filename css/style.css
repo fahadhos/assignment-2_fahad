@@ -1448,7 +1448,7 @@ footer section ================================*/
     .career-container {
 
 
-       border: 3px solid blue;
+        
        width: 1400px;
 
         padding-left: 500px;
@@ -2044,7 +2044,7 @@ End of Mobile device
         position: relative;
         text-align: center;
     }
-
+/* Tab */
     .about-text-area h2 {
         /* text-align: left; */
         align-items: center;
@@ -2098,7 +2098,7 @@ End of Mobile device
         display: flex;
         flex-direction: column;
         position: relative;
-
+left: -350px;
         width: max-content;
         text-align: center;
         justify-self: center;
@@ -2110,12 +2110,12 @@ End of Mobile device
         left: 1200px;
         font-size: 38px;
     }
-
+/* taab */
     .card-img-container {
 
         position: relative;
-        margin-left: -330px;
-        /* left: -210px; */
+        margin-left: -730px;
+        /* left: 10px; */
     }
 
     .card-parent .card-para {
@@ -2133,7 +2133,7 @@ End of Mobile device
 
         font-size: 30px;
     }
-
+/* tab */
     .card-box,
     .card-para {
         /* font-size: 90px; */
@@ -2147,7 +2147,7 @@ End of Mobile device
         width: auto;
         height: 500px;
     }
-
+/* tab */
     .card-container .card-headings h1 span {
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
@@ -2171,7 +2171,7 @@ End of Mobile device
         line-height: 30px;
         /* 150% */
     }
-
+/* tab */
     .card-headings p {
         text-align: center;
         justify-content: center;
@@ -2184,7 +2184,7 @@ End of Mobile device
         position: relative;
         margin-left: -426px;
     }
-
+/* tab */
     .card-img-container {
 
         position: relative;
@@ -2209,7 +2209,7 @@ End of Mobile device
         align-items: center;
         justify-content: center;
     }
-
+/* tab */
     .ad-container .ad-texts {
 
         display: flex;
@@ -2230,8 +2230,24 @@ End of Mobile device
         position: relative;
         left: 190px;
     }
+/* tab */
+   .ad-texts h2 {
+        height: max-content;
+        width: max-content;
+        line-height: 90px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 70px;
+    }
+/* tablet */
 
-    .play {
+
+.break::after {
+    content: "\a";
+    white-space: pre;
+}
+    .play-instantly  {
         height: max-content;
         width: fit-content;
         line-height: 30px;
@@ -2243,12 +2259,13 @@ End of Mobile device
 
     /* For Tablet */
 
-    .ad-texts p {
+    .ad-texts #play-paragraph {
+        font-size: 20px;
         width: max-content;
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin-bottom: 46px;
+        margin-bottom: 96px;
     }
 
     .ad-container>.man {
@@ -2256,7 +2273,7 @@ End of Mobile device
         position: relative;
 
     }
-
+/* tab */
     .tom {
         height: fit-content;
         width: fit-content;
@@ -2285,7 +2302,7 @@ End of Mobile device
         align-items: center;
         padding-top: 400px;
     }
-
+/* tab */
     .genre-container {
         position: relative;
         /* margin-bottom: 900px; */
@@ -2298,41 +2315,50 @@ End of Mobile device
         /* justify-content: center; */
         align-items: center;
         position: relative;
+
+        column-gap: 40px;
+        row-gap: 10px;
         left: 1400px;
         padding-right: 20px;
         /* margin-top: -2000px; */
     }
-
+/* Tab */
     .genre-container .btn {
         padding: 20px;
         margin-right: 300px;
         /* gap: 300px; */
     }
-
+/* tab */
     #vis {
         display: none;
         /* visibility: none; */
     }
-
+.second-btn{
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    /* row-gap: 20px; */
+    column-gap: 40px;
+}
     /* Tablet */
     .second-btn .btn {
         margin-right: 240px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-
+ 
         position: relative;
         left: 1360px;
         top: -1680px;
-        padding-bottom: -920px;
+        /* padding-bottom: -920px; */
         /* margin-top: 18px; */
         /* bottom: 200px; */
         /* margin-bottom: 1900px; */
     }
-
-
-
-
-
+ /* tab */
 
 
     /*  start 
@@ -2340,25 +2366,28 @@ End of Mobile device
 section-5
 Careers sections */
 
-
-    .career-container {
-        display: flex;
+.career-container {
+     
+    /* border: 3px solid blue; */
+    width: 3990px;
         flex-direction: row;
         /* grid-template-columns: repeat(2, 2fr); */
-        align-items: start;
-        justify-content: start;
-        text-align: start;
+        align-items: center;
+        justify-content: center;
+        /* text-align: ; */
         background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
         /* padding: 20px; */
         margin: 0 auto;
         /* width: max-content; */
         /* padding-top: -50px; */
-        margin-top: 0;
+   position: relative;
+   left: 180px;
         padding-top: 10px;
         padding-left: 30px;
         margin-left: 720px;
         height: 800px;
+        /* border-width: 3300px; */
         width: max-content;
 
     }
@@ -2368,7 +2397,7 @@ Careers sections */
 
         left: 20px;
     }
-
+/* tab */
     .career-container .career-desc h2 {
         color: #FFF;
         font-family: Work Sans;
@@ -2379,7 +2408,7 @@ Careers sections */
         /* 125% */
 
     }
-
+/* tab */
     .career-container .career-desc p {
         width: 680px;
         color: #FFF;
@@ -2391,7 +2420,7 @@ Careers sections */
         /* 166.667% */
 
     }
-
+/* tb */
 
     .career-container .career-desc {
 
@@ -2401,14 +2430,15 @@ Careers sections */
         text-align: start;
         /* width: 100%; */
     }
-
+/* Tablet */
+ 
     .career-container .pos-city {
         /* margin-left: -35px; */
         display: flex;
         flex-direction: row;
         text-align: right;
     }
-
+/* Tablet */
     .career-container .pos-city .postings {
         text-align: left;
     }
@@ -2431,7 +2461,7 @@ Careers sections */
         font-weight: 600;
 
     }
-
+/* tab */
 
     .career-container .career-img>img {
         position: relative;
@@ -2492,62 +2522,89 @@ Careers sections */
 
 
     /*  end of Careers sections */
-
     footer {
-        margin-left: 720px;
+
         box-sizing: border-box;
-        padding: 0;
-        max-width: 768px;
-        margin-bottom: 0;
-        padding-bottom: 0;
+        padding: 0px;
+        margin: 0;
     }
-
-
+    /* Tab */
 
     .footer {
-
-        padding: 60px;
-        /* width: 1468px; */
         position: relative;
         top: -680px;
-
+        padding-top: 0px;
         display: flex;
         flex-direction: column;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: 600px;
+left: 900px;
+padding-bottom: 60px;
+margin-bottom: 0;
+        height: max-content;
     }
 
-    /* Tablet */
-    .footer .footer-icons,
-    .footer-text {
+    /* Tab */
+    .footer .footer-text {
 
         text-align: center;
         align-items: center;
         justify-content: center;
+        position: relative;
+        left: 400px;
         display: grid;
+        column-gap: 50px;
+        row-gap: 50px;
+        width: max-content;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 30px;
+    }
+
+    /*  Tab */
+    .footer .footer-icons {
+
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 480px;
+        display: grid;
+        column-gap: 100px;
+        width: max-content;
         grid-template-columns: repeat(3, 1fr);
 
     }
 
+    /*  Tabdevice */
     .footer-links {
         position: relative;
-        text-align: justify;
-        gap: 2px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        left: 450px;
+        padding-bottom: 50px;
         display: grid;
+        /* flex-direction: column; */
+
+        column-gap: 100px;
+        width: max-content;
         grid-template-columns: repeat(2, 1fr);
-        /* -ms-grid-column-align: center; */
 
     }
 
-    /* Tablet */
+    /* tab */
+
     .copyright {
         position: relative;
-
+left: 30px;
         text-align: center;
         justify-content: center;
         align-items: center;
     }
+
+    /* Tablet */
+    
+
+   
+
 
 }
 
